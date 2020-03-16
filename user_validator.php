@@ -18,6 +18,7 @@
         }
         $this->validateUsername();
         $this->validateEmail();
+        return $this->errors;
      }
 
      private function validateUsername() {
